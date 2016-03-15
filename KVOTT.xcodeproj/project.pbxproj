@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CF8664E51C2E790500BC5BF9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8664E41C2E790500BC5BF9 /* main.m */; };
+		CF8664ED1C2E7AE800BC5BF9 /* NSObject+SJIntrospection.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8664EC1C2E7AE800BC5BF9 /* NSObject+SJIntrospection.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		CF8664E11C2E790500BC5BF9 /* KVOTT */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = KVOTT; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF8664E41C2E790500BC5BF9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF8664EB1C2E7AE800BC5BF9 /* NSObject+SJIntrospection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SJIntrospection.h"; sourceTree = "<group>"; };
+		CF8664EC1C2E7AE800BC5BF9 /* NSObject+SJIntrospection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SJIntrospection.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				CF8664E41C2E790500BC5BF9 /* main.m */,
+				CF8664EB1C2E7AE800BC5BF9 /* NSObject+SJIntrospection.h */,
+				CF8664EC1C2E7AE800BC5BF9 /* NSObject+SJIntrospection.m */,
 			);
 			path = KVOTT;
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF8664ED1C2E7AE800BC5BF9 /* NSObject+SJIntrospection.m in Sources */,
 				CF8664E51C2E790500BC5BF9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -237,6 +243,7 @@
 				CF8664EA1C2E790500BC5BF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
